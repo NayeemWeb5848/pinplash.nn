@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* =========================================
+                Common css End
+    ======================================= */
+
+    #privacy_policy_conditions {
+        padding-top: 7rem;
+    }
+    #privacy_policy_conditions .privacy_content h3 a i {
+        color: black;
+        margin-left: -21rem;
+    }
+    #privacy_policy_conditions .privacy_content h3{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: sans-serif;
+        padding-bottom: 30px;
+    }
+    #privacy_policy_conditions .privacy_content h5 {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: #000;
+    }
+    #privacy_policy_conditions .privacy_content ul li span{
+     font-weight: 700;
+     font-size: 17px;
+     font-family: sans-serif;
+    }
+    #privacy_policy_conditions .privacy_content ul li {
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: sans-serif;
+        margin: 26px 0;
+        position: relative;
+    }
+    #privacy_policy_conditions .privacy_end_content{
+      padding-top: 50px;
+    }
+    #privacy_policy_conditions .privacy_end_content h5 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+
+    /* responsive */
+
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        #privacy_policy_conditions .privacy_content h3 {
+            font-size: 19px;
+        }
+        #privacy_policy_conditions .privacy_content h3 a i {
+            margin-left: -4rem;
+        }
+        #privacy_policy_conditions .privacy_content ul li {
+            font-size: 15px;
+            margin: 20px -2px;
+        }
+    }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        #privacy_policy_conditions .privacy_content h3 {
+            font-size: 19px;
+        }
+        #privacy_policy_conditions .privacy_content h3 a i {
+            margin-left: -4rem;
+        }
+        #privacy_policy_conditions .privacy_content ul li {
+            font-size: 15px;
+            margin: 20px -2px;
+        }
+    }
+    
+    @media (max-width: 430.992px) {
+        #privacy_policy_conditions .privacy_content h3 {
+            font-size: 19px;
+        }
+        #privacy_policy_conditions .privacy_content h3 a i {
+            margin-left: -4rem;
+        }
+        #privacy_policy_conditions .privacy_content ul li {
+            font-size: 15px;
+            margin: 20px -2px;
+        }
+    }
+    
+    @media (max-width: 393.852px) {
+        #privacy_policy_conditions .privacy_content h3 {
+            font-size: 23px;
+        }
+        #privacy_policy_conditions .privacy_content h3 a i {
+            margin-left: -6rem;
+        }
+        #privacy_policy_conditions .privacy_content ul li {
+            font-size: 15px;
+            margin: 20px -2px;
+        }
+    }

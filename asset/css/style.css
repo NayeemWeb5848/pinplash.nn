@@ -1,0 +1,831 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* =========================================
+                Common css End
+    ======================================= */
+
+
+/* ########################################
+              NAB BER START
+##################################### */
+.my_class {
+    background: rgb(40 187 250);
+}
+
+.my_class .logo img {
+    width: 65px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.my_class .navbar-nav a {
+    color: rgb(255 255 255);
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0 13px;
+}
+
+.my_class .login_button {
+    margin: 0 auto;
+    padding-left: 18rem !important;
+}
+
+
+
+.my_class .login_button a {
+    padding: 7px 15px;
+    background: #ff8800;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: 0 5px;
+    transition: all linear.3s;
+}
+
+.my_class .login_button .ond {
+    padding: 7px 15px;
+    background: linear-gradient(280deg, #0fffe3, #10abd1);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: 0 5px;
+    transition: all linear.3s;
+}
+
+.my_class .login_button .ond:hover {
+    background: #ff8800;
+    color: #ffff;
+}
+
+.my_class .login_button a:hover {
+    background: linear-gradient(280deg, #0fffe3, #10abd1);
+    color: #ffff;
+}
+
+
+
+.login_button a {
+    margin: 0 5px;
+}
+
+
+/* ########################################
+              NAB BER END
+##################################### */
+
+
+
+
+/* ########################################
+              BANNER PART START
+##################################### */
+
+#banner_part {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner_part .overly {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.396);
+    z-index: -1;
+}
+
+#banner_part .banner_content {
+    padding-top: 3rem;
+}
+
+#banner_part .banner_content h1 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 49px;
+}
+
+#banner_part .banner_content p {
+    color: rgb(255 255 255);
+    font-weight: 500;
+    font-size: 19px;
+    text-align: left;
+    padding-top: 2rem;
+}
+
+#banner_part .banner_content .login_signUp a {
+    padding: 7px 20px;
+    background: linear-gradient(280deg, #0fff2b, #10abd1);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 7px;
+    margin: 20px 6px 0 -1px;
+    transition: all linear .3s;
+}
+
+#banner_part .banner_content .Visit a {
+    padding: 7px 20px;
+    background: linear-gradient(280deg, #0fff2b, #10abd1);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 7px;
+    margin: 20px 6px 0 -1px;
+    transition: all linear .3s;
+}
+
+#banner_part .banner_content .Visit i {
+    margin-left: 6px;
+    font-size: 13px;
+}
+
+#banner_part .banner_content .Visit a:hover {
+    background: linear-gradient(280deg, #0fabff, #10abd1);
+}
+
+#banner_part .banner_content .login_signUp a:hover {
+    background: linear-gradient(280deg, #0fabff, #10abd1);
+}
+
+
+
+/* ########################################
+              BANNER PART END
+##################################### */
+
+
+/* ########################################
+              BANNER PART-2 START
+##################################### */
+#banner_part2 {
+    background: linear-gradient(280deg, #630fff, #10abd1);
+    padding: 63px 0;
+}
+
+#banner_part2 .occasions {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#banner_part2 .occasions h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 47px;
+}
+
+#banner_part2 .occasions p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 19px;
+}
+
+#banner_part2 .position p {
+    border: 1px solid #00e8ff;
+    padding: 29px 1px 27px 100px;
+    text-align: left;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: inset -1px -1px 16px 0px #00e8ff;
+}
+
+
+#banner_part2 .position {
+    position: relative;
+}
+
+#banner_part2 .position p span {
+    position: absolute;
+    left: 28px;
+    top: 36px;
+    font-size: 32px;
+    border: 1px solid #00ff9d;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    box-shadow: inset 0px 8px 6px -2px #00dcff;
+}
+
+/* ########################################
+              BANNER PART-2 END
+##################################### */
+
+
+
+
+/* ########################################
+              QUESTIONS PART START
+##################################### */
+#questions_part {
+    padding: 60px 0;
+}
+
+#questions_part .questions_header {
+    text-align: center;
+}
+
+#questions_part .questions_header h2 {
+    font-size: 52px;
+    font-weight: 500;
+    color: #000;
+}
+
+#questions_part .questions_header p {
+    font-size: 21px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 20px;
+}
+
+#questions_part .questions_header p span {
+    display: block;
+}
+
+#questions_part .question_content {
+    padding-top: 30px;
+}
+
+
+#questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+.accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    background: linear-gradient(280deg, #ff9f0f, #10abd1);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#questions_part .accordion-item {
+    background: linear-gradient(280deg, #ff9f0f, #10abd1);
+    border-radius: 5px;
+    color: rgb(229 231 235);
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* ########################################
+              QUESTIONS PART END
+##################################### */
+
+
+/* ########################################
+              FOOTER PART START
+##################################### */
+
+#footer_part {
+    background: rgb(40 187 250);
+    padding: 54px 0;
+}
+
+#footer_part .footer_one_con img {
+    width: 33%;
+    height: 99px;
+}
+
+#footer_part .footer_one_con p {
+    color: rgb(255 255 255);
+    font-weight: 500;
+    font-size: 17px;
+    padding: 18px 0;
+}
+
+#footer_part .sosial_icon_img img {
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+}
+
+#footer_part .footer_two_con p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#footer_part .footer_two_con p span {
+    display: block;
+    padding-top: 14px;
+}
+
+#footer_part .footer_two_con h3 {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#footer_part .footer_two_con ul {
+    text-align: center;
+}
+
+#footer_part .footer_two_con ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 4px 0;
+}
+
+#footer_part .footer_three_con {
+    float: right;
+}
+
+#footer_part .pay {
+    float: right;
+}
+
+#footer_part .pay img {
+    width: 145px;
+    height: 76px;
+}
+
+#footer_part .footer_three_con a {
+    padding: 7px 15px;
+    background: linear-gradient(280deg, #0fffe3, #10abd1);
+    color: #ffff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 7px;
+    margin: 0 5px;
+    transition: all linear.3s;
+}
+
+#footer_part .footer_three_con a:hover {
+    background: linear-gradient(280deg, #ffd000, #deab2a);
+}
+
+
+/* .navbar {
+    --bs-navbar-toggler-icon-bg: url(../images/download.svg) !important;
+} */
+
+
+/* ########################################
+              FOOTER PART END
+##################################### */
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner_part .banner_content h1 {
+        font-size: 39px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 34rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 49px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 22px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+    #banner_part2 .position p span {
+        top: 74px;
+        left: 53px;
+    }
+
+    #banner_part2 .position p {
+        padding: 53px 1px 55px 130px;
+        font-size: 26px;
+    }
+
+    #banner_part2 .ss {
+        padding: 39px 0px 27px 146px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 36px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 22px;
+    }
+
+    #questions_part .questions_header p span {
+        display: inline-block;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 17px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    .onno {
+        width: 20% !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        font-size: 39px;
+    }
+
+    #footer_part .footer_two_con p {
+        font-size: 18px;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_one_con p {
+        font-size: 23px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 34rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 39px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 18px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 162px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 33px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 18px;
+    }
+
+    #questions_part .questions_header p span {
+        display: inline-block;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+}
+
+@media (max-width: 430.992px) {
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 34rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 39px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 18px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 162px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 33px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 18px;
+    }
+
+    #questions_part .questions_header p span {
+        display: inline-block;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+}
+
+@media (max-width: 393.852px) {
+
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 38rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 35px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 16px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 143px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 29px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 17px;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+}

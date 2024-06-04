@@ -1,0 +1,574 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* =========================================
+                Common css End
+    ======================================= */
+
+
+/* ########################################
+             ABOUT PART START
+##################################### */
+
+#about_part {
+    padding: 60px 0;
+}
+
+#about_part .about_header h3 {
+    color: black;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+#about_part .about_content p {
+    color: rgb(0 0 0);
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 33px;
+}
+
+#about_part .about_git {
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+
+#about_part .about_git a {
+    background: #ff9100;
+    width: 100%;
+    height: 11rem;
+    line-height: 11rem;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 28px;
+}
+
+#about_part .about_git a i {
+    margin-right: 18px;
+    font-size: 39px;
+}
+
+#about_part .about_git p i {
+    margin-right: 18px;
+    font-size: 35px;
+}
+
+#about_part .about_git p {
+    background: rgb(168 85 247);
+    width: 100%;
+    height: 11rem;
+    line-height: 11rem;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 28px;
+}
+
+#about_part .about_git .dfan i {
+    margin-right: 18px;
+    font-size: 35px;
+}
+
+#about_part .about_git .dfan {
+    background: rgb(59 130 246);
+    width: 100%;
+    height: 11rem;
+    line-height: 11rem;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffff;
+    font-size: 28px;
+}
+
+/* ########################################
+             ABOUT PART END
+##################################### */
+
+
+/* ########################################
+             CONTACT PAGE START
+##################################### */
+
+#contact_part {
+    padding: 60px 0;
+}
+
+#contact_part .contact_header h3 {
+    color: black;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+#contact_part .contact_content p {
+    color: rgb(0 0 0);
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 33px;
+    margin-bottom: 10rem;
+}
+
+
+/* ########################################
+              CONTACT PAGE END
+##################################### */
+
+
+
+
+/* RESPONSIVE */
+
+
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 38rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 35px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 16px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 143px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 29px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 17px;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+
+    #about_part .about_git {
+        padding-top: 2rem;
+    }
+
+    #about_part .about_content p {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 38rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 35px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 16px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 143px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 29px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 17px;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+
+    #about_part .about_git {
+        padding-top: 2rem;
+    }
+
+    #about_part .about_content p {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+    }
+}
+
+@media (max-width: 430.992px) {
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 38rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 35px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 16px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 143px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 29px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 17px;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+
+    #about_part .about_git {
+        padding-top: 2rem;
+    }
+
+    #about_part .about_content p {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+    }
+}
+
+@media (max-width: 393.852px) {
+
+    #banner_part .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    #banner_part {
+        height: 38rem;
+    }
+
+    #banner_part2 .occasions h2 {
+        font-size: 35px;
+    }
+
+    #banner_part2 .occasions p {
+        font-size: 16px;
+        padding-bottom: 33px;
+    }
+
+    #banner_part2 {
+        padding: 0px 0 47px 0px;
+    }
+
+
+    #banner_part2 .position p span {
+        top: 22px;
+        left: 143px;
+    }
+
+    #banner_part2 .position p {
+        padding: 95px 1px 28px 24px;
+    }
+
+    #banner_part2 .ss {
+        padding: 95px 0px 27px 28px !important;
+    }
+
+    #questions_part .questions_header h2 {
+        font-size: 29px;
+    }
+
+    #questions_part .questions_header p {
+        font-size: 17px;
+    }
+
+    #questions_part .accordion-flush>.accordion-item>.accordion-header .accordion-button,
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        font-size: 16px;
+    }
+
+    .text-center {
+        text-align: center !important;
+    }
+
+    #footer_part .footer_two_con h3 {
+        text-align: left;
+        margin-top: 33px;
+    }
+
+    #footer_part .footer_two_con ul {
+        text-align: left;
+    }
+
+    #footer_part .footer_three_con {
+        float: none;
+    }
+
+    #footer_part .pay {
+        float: none;
+    }
+
+    .slk {
+        text-align: center;
+        margin-top: 37px;
+    }
+
+    #banner_part2 .occasions {
+        margin: -1;
+    }
+
+    .my_class .login_button {
+        padding-left: 1rem !important;
+        text-align: center;
+    }
+
+    .sty {
+        display: block;
+    }
+
+    .my_class .login_button a {
+        margin: 9px 0px;
+    }
+
+    #about_part .about_git {
+        padding-top: 2rem;
+    }
+
+    #about_part .about_content p {
+        font-size: 16px;
+        font-weight: 500;
+        text-align: left;
+    }
+}
